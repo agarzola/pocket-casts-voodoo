@@ -1,0 +1,19 @@
+{
+    "name": "Enhance Pocket Casts",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Adds functionality to Pocket Casts’ web interface.",
+    "homepage_url": "http://mrkp.co",
+    "permissions": [ "tabs","http://play.pocketcasts.com/" ],
+    "content_scripts": [
+      {
+        "matches": [ "*://play.pocketcasts.com/*" ],
+        "js": ["scripts/enhancements.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "background": {
+      "scripts": [ "scripts/background.js" ],
+      "persistent": false
+    }
+}
