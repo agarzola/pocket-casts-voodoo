@@ -1,14 +1,14 @@
 {
-    "name": "Enhance Pocket Casts",
+    "name": "Pocket Casts Voodoo",
     "version": "0.0.1",
     "manifest_version": 2,
     "description": "Adds functionality to Pocket Casts’ web interface.",
-    "homepage_url": "http://mrkp.co",
+    "homepage_url": "http://github.com/agarzola/pocket-casts-voodoo",
     "permissions": [ "tabs","http://play.pocketcasts.com/" ],
     "content_scripts": [
       {
         "matches": [ "*://play.pocketcasts.com/*" ],
-        "js": ["scripts/enhancements.js"],
+        "js": ["scripts/voodoo.js"],
         "run_at": "document_end"
       }
     ],
