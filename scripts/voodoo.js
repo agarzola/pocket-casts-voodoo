@@ -1,10 +1,11 @@
 var enablePlayButtonsAndTime = function () {
   var episodes = document.getElementsByClassName('episode_row')
-
-  for (key in episodes) {
-    if (episodes.hasOwnProperty(key)) {
-      removeClass('ng-hide').from(episodes[key].getElementsByClassName('episode_button ng-hide')[0])
-      removeClass('ng-hide').from(episodes[key].getElementsByClassName('episode_time ng-hide')[0])
+  if (episodes.length > 0) {
+    for (key in episodes) {
+      if (episodes.hasOwnProperty(key)) {
+        removeClass('ng-hide').from(episodes[key].getElementsByClassName('episode_button ng-hide')[0])
+        removeClass('ng-hide').from(episodes[key].getElementsByClassName('episode_time ng-hide')[0])
+      }
     }
   }
 }
