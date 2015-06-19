@@ -23,4 +23,11 @@ var consoleIt = function (value) {
   chrome.runtime.sendMessage({log: value});
 }
 
-window.onload = enablePlayButtonsAndTime
+window.onload = function () {
+  enablePlayButtonsAndTime()
+
+  var target = document.getElementById('content_container')
+  var config = { childList: true }
+  var observer = new MutationObserver(enablePlayButtonsAndTime)
+  observer.observe(target, config)
+}
