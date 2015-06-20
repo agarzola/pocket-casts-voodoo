@@ -24,10 +24,9 @@ var consoleIt = function (value) {
 }
 
 window.onload = function () {
-  enablePlayButtonsAndTime()
-
-  var target = document.getElementById('content_container')
-  var config = { childList: true }
-  var observer = new MutationObserver(enablePlayButtonsAndTime)
-  observer.observe(target, config)
+  var styleTag = document.createElement('style')
+  var styleText = document.createTextNode('.episode_button.ng-hide,.episode_time.ng-hide{display:block !important;}')
+  styleTag.type = 'text/css'
+  styleTag.appendChild(styleText)
+  document.head.appendChild(styleTag)
 }
