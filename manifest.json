@@ -2,7 +2,7 @@
     "name": "Pocket Casts Voodoo",
     "version": "0.0.1",
     "manifest_version": 2,
-    "description": "Adds functionality to Pocket Casts’ web interface.",
+    "description": "Allows Pocket Casts’ web app to play episodes without subscribing to a podcast.",
     "homepage_url": "http://github.com/agarzola/pocket-casts-voodoo",
     "permissions": [ "tabs","http://play.pocketcasts.com/" ],
     "content_scripts": [
