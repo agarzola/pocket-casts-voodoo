@@ -9,7 +9,7 @@
       {
         "matches": [ "*://play.pocketcasts.com/*" ],
         "js": ["scripts/voodoo.js"],
-        "run_at": "document_end"
+        "run_at": "document_idle"
       }
     ],
     "background": {
