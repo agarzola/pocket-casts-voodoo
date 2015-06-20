@@ -5,6 +5,13 @@
     "description": "Allows Pocket Casts’ web app to play episodes without subscribing to a podcast.",
     "homepage_url": "http://github.com/agarzola/pocket-casts-voodoo",
     "permissions": [ "tabs","http://play.pocketcasts.com/" ],
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png",
+      "300": "images/icon300.png"
+    },
     "content_scripts": [
       {
         "matches": [ "*://play.pocketcasts.com/*" ],
