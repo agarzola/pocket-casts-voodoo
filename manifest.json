@@ -24,5 +24,14 @@
     "background": {
       "scripts": [ "scripts/background.js" ],
       "persistent": false
+    },
+    "commands": {
+      "play_pause_toggle": {
+        "suggested_key": {
+          "default": "MediaPlayPause"
+        },
+        "description": "Toggle between playing and pausing the current podcast.",
+        "global": true
+      }
     }
 }
