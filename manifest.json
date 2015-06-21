@@ -2,7 +2,7 @@
     "name": "Pocket Casts Voodoo",
     "short_name": "Pocket Casts Voodoo",
     "author": "Alfonso Gómez-Arzola",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "manifest_version": 2,
     "description": "Allows Pocket Casts’ web app to play episodes without subscribing to a podcast.",
     "homepage_url": "http://github.com/agarzola/pocket-casts-voodoo",
