@@ -20,6 +20,7 @@
         "js": [
           "scripts/showTimeAndButton.js",
           "scripts/playPauseToggle.js",
+          "scripts/makeRowEpisodeLink.js",
           "scripts/voodoo.js"
         ],
         "run_at": "document_idle"
