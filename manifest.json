@@ -17,7 +17,11 @@
     "content_scripts": [
       {
         "matches": [ "*://play.pocketcasts.com/*" ],
-        "js": ["scripts/voodoo.js"],
+        "js": [
+          "scripts/showTimeAndButton.js",
+          "scripts/playPauseToggle.js",
+          "scripts/voodoo.js"
+        ],
         "run_at": "document_idle"
       }
     ],
